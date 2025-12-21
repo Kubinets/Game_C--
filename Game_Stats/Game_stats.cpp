@@ -27,7 +27,7 @@ int main()
     cout << "\nHow much fuel? ";
     cin >> fuel;
     cout  << "fiel: " << fuel << endl;
-    typedef unsigned short int ushort;
+    typedef unsigned short int ushort;  // Определние новых имен для типов 
     ushort bonus = 10;
     cout << "\nbonus: " << bonus << endl;
     return 0;
