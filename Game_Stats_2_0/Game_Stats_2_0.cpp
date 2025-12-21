@@ -20,10 +20,10 @@ int main()
     lives++;
     cout << "lives: " << lives << endl;
     lives = 3;
-    int bonus = ++lives * 10;
+    int bonus = ++lives * 10; //сначала ++lives потом умножение 
     cout << "lives. bonus =" << lives << ". " << bonus << endl;
     lives = 3;
-    bonus = lives++ *10;
+    bonus = lives++ *10; // сначала умножение потом lives++
     cout << "lives. bonus = " << lives << ". " << bonus << endl;
     // целочисленное переполнение 
     score = 4294967295;
