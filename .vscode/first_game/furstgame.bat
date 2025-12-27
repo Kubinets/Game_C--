@@ -1,0 +1,2 @@
+furstgame.exe
+pause
